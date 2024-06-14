@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@app/utils": "workspace:^",
+    "@dne/utils": "workspace:^",
     "utils": "^0.3.1"
   }
 }

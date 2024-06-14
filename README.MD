@@ -16,5 +16,5 @@ pnpm install typescript @types/node -D -w
 pnpm tsc --init
 
 // 安装依赖包， 某一个项目安装
-pnpm add umi --filter @app/hooks
+pnpm add umi --filter @dne/hooks
 

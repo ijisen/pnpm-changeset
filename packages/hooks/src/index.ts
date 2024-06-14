@@ -5,7 +5,7 @@ interface IProps {
 
 // export * from './demo';
 
-export const hookVersion = '1.0.1';
+export const hookVersion = '1.0.23';
 export const hookObj: IProps = {
   name: 'hooks'
 };

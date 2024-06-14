@@ -1,5 +1,5 @@
 {
-  "name": "@app/utils",
+  "name": "@dne/utils",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@app/locale": "workspace:^"
+    "@dne/locale": "workspace:^"
   }
 }

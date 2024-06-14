@@ -1,5 +1,5 @@
 import yayJpg from '../assets/yay.jpg';
-import { getHooksName, hookObj, hookVersion } from '@app/hooks';
+import { getHooksName, hookObj, hookVersion } from '@dne/hooks';
 import { version } from 'varian-validator';
 
 

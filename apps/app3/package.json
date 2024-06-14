@@ -11,7 +11,7 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "@app/hooks": "workspace:^",
+    "@dne/hooks": "workspace:^",
     "umi": "^4.2.10",
     "varian-validator": "^0.0.45"
   },

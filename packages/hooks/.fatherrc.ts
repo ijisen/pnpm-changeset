@@ -2,10 +2,14 @@ import { defineConfig } from 'father';
 const path = require('path');
 
 export default defineConfig({
-  esm: {
+  /* esm: {
+     transformer: 'babel',
+     // output: 'dist'
+   },*/
+  cjs: {
+    transformer: 'babel',
     output: 'dist'
-  },
-  // cjs: {},
+    },
   // umd: {},
   alias: {
     '@': path.resolve(__dirname, './src'),
