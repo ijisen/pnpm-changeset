@@ -1,0 +1,23 @@
+{
+  "name": "app3",
+  "version": "1.0.0",
+  "private": true,
+  "author": "husen <husen@zdns.cn>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@app/hooks": "workspace:^",
+    "umi": "^4.2.10",
+    "varian-validator": "^0.0.45"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  }
+}
